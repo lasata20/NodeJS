@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Users List
+        link(rel="stylesheet", href="/css/user.css")
+    body 
+        header.main_header 
+            navbar.header_nav
+                ul.nav_items 
+                    li.nav--btn 
+                        a(href="/") Home
+                    li.nav--btn 
+                        a(href="/add-user") Add Users
+                    li.nav--btn 
+                        a.active(href="/list") Users List
+
+        main
+            table
+                thead
+                    tr
+                        th First Name
+                        th Last Name
+                        th Email 
+                tbody      
+                    each user in users
+                        tr 
+                            td= user.firstname
+                            td= user.lastname
+                            td= user.email
+                          
+

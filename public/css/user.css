@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header_nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_header{
+    width: 100%;
+    height: 70px;
+    background-color: #9b61d1;
+    padding: 0 1.5rem;
+}
+
+.nav_items{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav--btn{
+    margin: 0 1rem;
+    padding: 0;
+
+}
+
+.nav--btn a{
+    color:#000000;
+}
+
+.nav--btn a:hover,
+.nav--btn a:active,
+.nav--btn a.active{
+    color:#f5f5dc;
+}
+
+main{
+    padding: 0 2.5rem;
+}
+
+
+
+.form-control label,
+.form-control input{
+    display: block;
+    margin-top: 1rem;
+}
+
+.form-control input{
+    border: 1px solid #000000;
+    font: inherit;
+    border-radius: 2px;
+}
+
+.form-control label{
+    font-weight: bold;
+}
+
+button{
+    margin-top: 1.2rem;
+    font: inherit;
+    border: 2px solid #000000;
+    border-radius: 2px;
+    color: #f8f8f6;
+    background-color: #aa90c2;
+    cursor: pointer;
+}
+
+/* user.css */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}

@@ -7,7 +7,7 @@ const dir = require('../util/path');
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-    res.render('main');
+    res.render('main', {pgTitle: 'Home'});
 });
 
 module.exports = router;

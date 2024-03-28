@@ -10,7 +10,7 @@ const list = [];
 
 //render the form
 router.get('/add-user', (req, res, next) => {
-    res.render('add-user');
+    res.render('add-user', {pgTitle: 'Add Users'});
 
 });
 
